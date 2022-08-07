@@ -1,0 +1,27 @@
+#body-signin {
+  overflow: hidden;
+}
+
+#main-login {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.infos-login {
+  margin: 10px 30px 10px 30px;
+}
+
+#continue-button {
+  text-align: center;
+  padding-top: 8px;
+}
+
+
+.h1-signin {
+  margin-top: 0;
+}
+
+#sectionsignin {
+  padding: 30px;
+  border: 1px solid black;
+}

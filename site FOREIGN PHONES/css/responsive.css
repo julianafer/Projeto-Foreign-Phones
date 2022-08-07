@@ -1,0 +1,71 @@
+/*responsividade dos celulares*/
+@media all and (max-width:1560px) {
+  .main-div {
+    grid-template-columns:repeat(3, 1fr);
+  }
+}
+
+@media all and (max-width:1160px) {
+  .main-div {
+    grid-template-columns:repeat(2, 1fr);
+  }
+}
+
+@media all and (max-width:550px) {
+  #img-body {
+    padding-top: 80px;
+  }
+  .main-div {
+    grid-template-columns:repeat(1, 1fr);
+  }
+  #borda {
+    border: transparent;
+  }
+  /*footer {
+    display:none;
+  }*/
+  .icones {
+    color: transparent;
+  }
+  #filtros{
+    display: none !important;
+
+  }
+}
+
+/*responsividade da barra de navegação*/
+@media (max-width: 700px) {
+  nav {
+    flex-direction: column;
+  }
+}
+
+/*responsive das outras páginas*/
+@media all and (min-width:1360px) {
+  .main-participantes {
+    grid-template-columns:repeat(3, 1fr);
+  }
+}
+
+/*responsive do footer*/
+@media screen and (max-width:900px){
+  footer{
+    position:relative;
+    bottom: 0px;
+    width:100%;
+  }
+
+  .footer-content{
+    flex-wrap:wrap;
+    flex-direction:column;
+  }
+  .footer-content .fcontent{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-content  #firstfcontent{
+    display:flex;
+    flex-direction:column;
+  }
+}

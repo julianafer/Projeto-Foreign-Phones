@@ -1,0 +1,58 @@
+#body-signup {
+  overflow: hidden;
+}
+
+#main-signup {
+  padding-top: 4%;
+}
+
+h1,h3{
+  top:78px;
+  text-align:center;
+
+}
+
+#labels{
+  position:relative;
+  top:30x;
+  margin:20px;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.infos-signup{
+  margin-bottom: 10px ;
+}
+
+#finalizar-signup{
+  margin-top:14px;
+  position: center;
+  left: 66px;
+  top: 8px;
+}
+#finalizar-signup input{
+  padding:10px;
+}
+
+#input-nome { width: 270px; }
+#input-sobrenome { width: 233px; }
+#input-telefone { width: 254px; }
+#input-data-nascimento { width: 166px; }
+#input-email { width: 269px; }
+#input-senha { width: 269px; }
+#input-senha-novamente {
+  width: 269px;
+  margin-bottom: 20px;
+}
+
+main#main-signup > div{
+  top:90px;
+}
+
+#sectionsignup {
+  background-color: white;
+  padding: 30px;
+  border: 1px solid black;
+}

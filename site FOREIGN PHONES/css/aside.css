@@ -1,0 +1,81 @@
+aside ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+aside ul li{
+  list-style-type: style none;
+}
+
+.barra-aside{
+  background-color: transparent;
+  border: none;
+  color: black;
+  width: 45px;
+  position: absolute;
+  margin: 5px 15px;
+}
+
+#chec{
+  display: none;
+}
+
+#carrinho{
+  width: 30px;
+  color: black;
+}
+
+aside{
+  z-index: 0;
+  background-color: #d6d6d6;
+  width: 310px;
+  height: 180vh;
+  position: absolute;
+  left: -350px;
+}
+
+#chec:checked ~ aside { 
+   transform: translateX(350px); 
+}
+
+.font1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+
+.font2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 17px;
+}
+aside ul li a {
+  display: block;
+  padding: 70px 10px;
+  margin: 20px 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+}
+
+.font1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+.font2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+
+aside ul li a:hover{
+  background: rgb(255, 115, 0);
+  
+}
+aside label {
+  position: relative;
+  z-index: 1;
+}
+
+aside ul{
+  top: 58px;
+  position: absolute;
+  width: 100%;
+}

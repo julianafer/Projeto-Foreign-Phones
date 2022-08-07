@@ -1,0 +1,149 @@
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans' !important;
+  padding:0;
+  overflow-x: hidden
+}
+
+
+.cell{
+  height: 273px !important;
+  width: 207px !important;
+}
+
+#main-index{
+  /* padding: 15%;
+  padding-top: 100px;
+  padding-right: 15%;
+  padding-bottom: 100px;
+  padding-left: 26%; 
+  display: grid;
+  grid-gap: 45px;
+  row-gap: 40px;
+  column-gap: 40px;
+  text-align: center;
+  grid-template-columns: repeat(4, 1fr);*/
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 10px 10%;
+
+  
+}
+
+
+
+/**bordinha principal**/
+#borda{
+border: 5px solid #c7c7c7;
+border-radius: 20px;
+/* padding-right: 10%;
+padding-left: 10%; */
+}
+
+
+.main img{
+display: grid;
+justify-content: center;
+align-content: center;
+margin: auto;
+padding-left: 25%;
+padding-right: 15%;
+}
+
+
+.main-div{
+  width: 100%;
+  /* display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  grid-template-columns:repeat(1fr 1fr 1fr); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main img:hover{
+color: rgb(255, 115, 0);
+transition: 0.1s;
+cursor: pointer;
+}
+
+
+main > div{
+display: grid;
+justify-content: center;
+align-content: center;
+}
+
+
+/**espaçamento dos celulares**/
+.div-section{
+  /* padding-bottom: 50%;
+  padding-left: 20%;
+  padding-right: 20%; */
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: color .3s;
+  will-change: color;
+}
+
+
+/**tam-fonte dos preços**/
+p{
+  font-size: 1.5em;
+}
+
+
+p>div:hover{
+color: rgb(255, 115, 0);
+transition: 0.1s;
+cursor: pointer;
+}
+
+/**imagens**/
+.cell {
+padding: 20px;
+margin: 0px 10px 10px 0;
+width: 20%;
+}
+
+h1 {
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+}
+
+.h1-h2 {
+  text-align: center;
+}
+
+
+/**hover da imagem**/
+.cell:hover {
+  background-color: #c7c7c7;
+  transition: 0.3s;
+  cursor: pointer;
+  border: 85px;
+  border-radius: 10px;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 10%;
+}
+
+.div-section:hover {
+  color: rgb(255, 115, 0);
+}
