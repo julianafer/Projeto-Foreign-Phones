@@ -69,3 +69,27 @@
     flex-direction:column;
   }
 }
+
+@media screen and (max-width:961px) {
+  footer {
+    background-image: url(../imgs/backgrounds/background-footer-961.png);
+  }
+  #titulo-local {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width:905px) {
+  footer {
+    background-image: url(../imgs/backgrounds/background-footer-905.png);
+  }
+}
+@media screen and (max-width:661px) {
+  footer {
+    background-image: url(../imgs/backgrounds/background-footer-661.png);
+  }
+}
+@media screen and (max-width:542px) {
+  footer {
+    background-image: url(../imgs/backgrounds/background-footer-542.png);
+  }
+}
