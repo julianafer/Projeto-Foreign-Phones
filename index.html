@@ -42,7 +42,12 @@
       </ul>
     </nav>
 
-<img id="img-body" src="imgs/backgrounds/background-pc.jpg" class="w-100 mt-5">
+<!-- <img id="img-body" src="imgs/backgrounds/background-pc.jpg" class="w-100 mt-5"> -->
+<picture>
+  <source media="print" srcset="imgs/backgrounds/background-pc.jpg">
+  <source media="(max-width: 700px)" srcset="imgs/backgrounds/background-celular.jpg">
+  <img class="w-100 img-body" src="imgs/backgrounds/background-pc.jpg" alt="Imagem Promoção">
+</picture>
 <!--<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">

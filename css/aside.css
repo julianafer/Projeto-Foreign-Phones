@@ -36,7 +36,7 @@ aside{
 }
 
 #chec:checked ~ aside { 
-   transform: translateX(350px); 
+  transform: translateX(350px); 
 }
 
 .font1{

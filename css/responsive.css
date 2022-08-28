@@ -27,16 +27,19 @@
   .icones {
     color: transparent;
   }
-  #filtros{
+  /* #filtros{
     display: none !important;
 
-  }
+  } */
 }
 
 /*responsividade da barra de navegação*/
 @media (max-width: 700px) {
   nav {
     flex-direction: column;
+  }
+  .img-body {
+    margin-top: 130px;
   }
 }
 

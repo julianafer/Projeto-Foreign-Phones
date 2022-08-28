@@ -39,20 +39,23 @@ body {
 
 /**bordinha principal**/
 #borda{
-border: 5px solid #c7c7c7;
-border-radius: 20px;
-/* padding-right: 10%;
-padding-left: 10%; */
+  border: 5px solid #c7c7c7;
+  border-radius: 20px;
+  /* padding-right: 10%;
+  padding-left: 10%; */
 }
 
+.img-body {
+  margin-top: 3.7rem;
+}
 
 .main img{
-display: grid;
-justify-content: center;
-align-content: center;
-margin: auto;
-padding-left: 25%;
-padding-right: 15%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  padding-left: 25%;
+  padding-right: 15%;
 }
 
 
@@ -71,16 +74,16 @@ padding-right: 15%;
 }
 
 .main img:hover{
-color: rgb(255, 115, 0);
-transition: 0.1s;
-cursor: pointer;
+  color: rgb(255, 115, 0);
+  transition: 0.1s;
+  cursor: pointer;
 }
 
 
 main > div{
-display: grid;
-justify-content: center;
-align-content: center;
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
 
 
@@ -106,16 +109,16 @@ p{
 
 
 p>div:hover{
-color: rgb(255, 115, 0);
-transition: 0.1s;
-cursor: pointer;
+  color: rgb(255, 115, 0);
+  transition: 0.1s;
+  cursor: pointer;
 }
 
 /**imagens**/
 .cell {
-padding: 20px;
-margin: 0px 10px 10px 0;
-width: 20%;
+  padding: 20px;
+  margin: 0px 10px 10px 0;
+  width: 20%;
 }
 
 h1 {
